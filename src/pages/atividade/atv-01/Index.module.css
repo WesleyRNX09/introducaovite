@@ -5,6 +5,13 @@
     height:50rem;
 }
 
+.cores{
+     display: flex;
+     justify-content: center;
+     margin-top: 3rem;
+
+}
+
 .text{
     color: #b2b2b2;
 }
@@ -13,23 +20,27 @@
     background-color: green;
     width: 3rem;
     height:3rem;
+    display: inline-block;
 }
 
 .vermelho{
     background-color: red;
     width: 3rem;
     height:3rem;
+    display: inline-block;
 }
 
 .branco{
     background-color: #b2b2b2;
     width: 3rem;
     height:3rem;
+    display: inline-block;
 }
 
 .amarelo{
     background-color: yellow;
     width: 3rem;
     height:3rem;
+    display: inline-block;
 }
 
