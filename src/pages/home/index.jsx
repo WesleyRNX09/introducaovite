@@ -17,6 +17,7 @@ function Home() {
         <div className={styles.containerCards}>    
           <h2>Atividades</h2>      
           <Link to="/atividade/1">Atividade 1 - Uso CSS</Link>
+          <Link to="/atividade/2">Atividade 2 - botao</Link>
         </div>
     </div>
   )
