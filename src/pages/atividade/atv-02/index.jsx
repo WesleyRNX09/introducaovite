@@ -7,7 +7,7 @@ export default function atividade02() {
     const [num, setNum] = useState(0);
 
     function somarUm () {
-        setNum(num + 1);
+        setNum(num + 1000);
     }
 
     function subtraiUm () {
@@ -24,12 +24,12 @@ export default function atividade02() {
                     <label                
                         className={styles.botao} 
                         onClick={() => subtraiUm()}
-                >-1</label>
+                >-1000</label>
                 <label className={styles.texto}>Contador de Aura: {num}</label>
                 <label                
                         className={styles.botao} 
                         onClick={() => somarUm()}
-                >+1</label>
+                >+1000</label>
             </div>   
 
             <label                

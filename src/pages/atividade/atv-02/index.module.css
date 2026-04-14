@@ -3,13 +3,14 @@
     flex-direction: column;
     justify-content: center;
     height: 96vh;
+    align-items: center;
 }
 
 .containerHorizontal{
     display: flex; 
     justify-content: space-evenly;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
 }
 
@@ -17,6 +18,8 @@
 .texto {
     font-size: 3.5rem;
     margin: 2rem 0;
+    text-align: center;
+    margin: 2rem;
 }
 
 .botao {
@@ -29,6 +32,7 @@
     width: 100%;
     margin-left: 2rem;
     margin-right: 2rem;
+    
 }
 
 .botao:hover {
