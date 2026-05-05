@@ -13,7 +13,7 @@ function Home() {
           <Link to="/exemplo/2">Exemplo 2 - Uso de module CSS</Link>    
           <Link to="/exemplo/3">Exemplo 3 - Uso de module CSS</Link>    
           <Link to="/exemplo/4">Exemplo 4 - Uso de module CSS</Link>   
-          <Link to="/exemplo/5">Exemplo 4 - Uso de module CSS</Link>
+          <Link to="/exemplo/5">Exemplo 5 - Uso de module CSS</Link>
         </div>
         
         <div className={styles.containerCards}>    
@@ -21,6 +21,7 @@ function Home() {
           <Link to="/atividade/1">Atividade 1 - Uso CSS</Link>
           <Link to="/atividade/2">Atividade 2 - botao</Link>
           <Link to="/atividade/3">Atividade 3 - botao</Link>
+          <Link to="/atividade/4">Atividade 4 - botao</Link>
         </div>
     </div>
   )
